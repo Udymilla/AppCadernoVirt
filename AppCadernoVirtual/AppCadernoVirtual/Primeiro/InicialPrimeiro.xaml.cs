@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,19 +11,19 @@ using Xamarin.Forms.Xaml;
 namespace AppCadernoVirtual.Primeiro
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class InicialPrimeiro : ContentPage
+    public partial class InicialPrimeiro : ContentPage 
     {
         public InicialPrimeiro()
         {
             
                 InitializeComponent();
 
-            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasNavigationBar(this, false); // escondendo barra de navegação
 
         }
 
 
-
+        // declarando os botões para cada pagina correspondente
         private void Button_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new PortuguesPrimeiro());
