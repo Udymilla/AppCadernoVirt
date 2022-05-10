@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              BackgroundImage="fundo.jpg"
+             x:Class="AppCadernoVirtual.Terceiro.HistoriaTerceiro"
+             Title="História">
+    <ContentPage.Content>
+        <StackLayout Padding="60">
+            <Label Text="MATÉRIAS" TextColor="#AA0000" FontSize="Title"
+                HorizontalOptions="CenterAndExpand" FontAttributes="Bold" />
+
+            <Label Text="EUA- 13 Colônias" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Revolução Industrial" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Antigo Regime" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Iluminismo" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

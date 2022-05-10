@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImage="fundo.jpg"
+             x:Class="AppCadernoVirtual.Primeiro.PortuguesPrimeiro"
+             Title="Português">
+             
+    <ContentPage.Content>
+        <StackLayout Padding="60">
+            <Label Text="MATÉRIAS" TextColor="#AA0000" FontSize="Title"
+                HorizontalOptions="CenterAndExpand" FontAttributes="Bold" />
+
+            <Label Text="Estudo da Lingua e Trovadorismo" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Humanismo Classicismo Quinhentismo" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Radicais e Prefixos Barroco e Arcadismo" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Verbos 
+                         Romantismo" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

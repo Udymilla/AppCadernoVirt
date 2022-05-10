@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.App">
+    
+    <Application.Resources>
+
+        <Style TargetType="Image" x:Key="logoGrande">
+            <Setter Property="HeightRequest" Value="150" />
+        </Style> <!-- tamanho e chave da imagem -->
+
+        <Style TargetType="Button" >
+            <Setter Property="TextColor" Value="White" />
+            <!-- tipo e cor botão-->
+           
+        </Style>
+
+
+        
+        <Style TargetType="NavigationPage" >
+            <Setter Property="BarBackgroundColor" Value="#AA0000" />
+            <Setter Property="BarTextColor" Value="White" />
+        </Style>
+          <!--cor de fundo - cor do texto-->
+        
+        <Style x:Key="Titulo" TargetType="Label">
+            <Setter Property="TextColor" Value="#AA0000" />
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+            <!-- tamanho, cor, alinhamento do titulo-->
+
+           
+        </Style>
+        
+    </Application.Resources>
+        
+</Application>

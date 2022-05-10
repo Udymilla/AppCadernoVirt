@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Segundo.InicialSegundo">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="05">
+            <Label Text="MATÉRIAS SEGUNDO ANO" Style="{StaticResource Titulo}" />
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Text="Português" Clicked="Button_Clicked" BackgroundColor="#AA0000"/>
+                <Button Grid.Row="1" Grid.Column="0" Text="Matemática" Clicked="Button_Clicked_1" BackgroundColor="#555555"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="Quimica" Clicked="Button_Clicked_2" BackgroundColor="#AA0000"/>
+                <Button Grid.Row="3" Grid.Column="0" Text="Física" Clicked="Button_Clicked_3" BackgroundColor="#555555"/>
+                <Button Grid.Row="4" Grid.Column="0" Text="Biologia" Clicked="Button_Clicked_4" BackgroundColor="#AA0000" />
+                <Button Grid.Row="5" Grid.Column="0" Text="História" Clicked="Button_Clicked_5" BackgroundColor="#555555" />
+                <Button Grid.Row="6" Grid.Column="0" Text="Geografia" Clicked="Button_Clicked_6" BackgroundColor="#AA0000" />
+                <Button Grid.Row="7" Grid.Column="0" Text="Filosofia" Clicked="Button_Clicked_7" BackgroundColor="#555555"/>
+                <Button Grid.Row="8" Grid.Column="0" Text="Sociologia" Clicked="Button_Clicked_8" BackgroundColor="#AA0000" Grid.ColumnSpan="2"  />
+                <Button Grid.Row="0" Grid.Column="1" Text="Inglês" Clicked="Button_Clicked_9" BackgroundColor="#555555" />
+                <Button Grid.Row="1" Grid.Column="1" Text="Ed Física" Clicked="Button_Clicked_10" BackgroundColor="#AA0000"/>
+
+                <Button Grid.Row="3" Grid.Column="1" Text="Ética" Clicked="Button_Clicked_11" BackgroundColor="#AA0000"/>
+                <Button Grid.Row="2" Grid.Column="1" Text="Programação WebII" Clicked="Button_Clicked_12" BackgroundColor="#555555" />
+                <Button Grid.Row="5" Grid.Column="1" Text="Banco de DadosII" Clicked="Button_Clicked_13" BackgroundColor="#AA0000" />
+                <Button Grid.Row="4" Grid.Column="1" Text="Desenv de Sistemas" Clicked="Button_Clicked_14" BackgroundColor="#555555" />
+                <Button Grid.Row="7" Grid.Column="1" Text="Sist Embarcados" Clicked="Button_Clicked_15" BackgroundColor="#AA0000" />
+                <Button Grid.Row="6" Grid.Column="1" Text="MobileI" Clicked="Button_Clicked_16" BackgroundColor="#555555"/>
+                
+               
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImage="fundo.jpg"
+             x:Class="AppCadernoVirtual.Segundo.SociologiaSegundo"
+             Title="Sociologia">
+    <ContentPage.Content>
+        <StackLayout Padding="60">
+            <Label Text="MATÉRIAS" TextColor="#AA0000" FontSize="Title"
+                HorizontalOptions="CenterAndExpand" FontAttributes="Bold" />
+
+            <Label Text="Sociedade" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Cultura" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Direitos" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Movimentos" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

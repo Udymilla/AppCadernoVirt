@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <!-- criando a conexão entre as páginas e colocando a foto de fundo-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImage="fundo.jpg" 
+             x:Class="AppCadernoVirtual.Primeiro.AnaliseSistemasPrimeiro"
+             Title="Análise de Sistemas">
+     
+    <ContentPage.Content>
+        <StackLayout Padding="60"> <!-- preeenchendo as bordas -->
+            <Label Text="MATÉRIAS" TextColor="#AA0000" FontSize="Title" 
+             HorizontalOptions="CenterAndExpand" FontAttributes="Bold" /> <!-- título, tamanho, fonte e centralizando -->
+
+            <Label Text=" Analisar problemas de empresas e solucioná-los por meio de projetos de sistemas" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+           <!-- conteúdo da matéria
+                cor
+                tamanho da fonte
+                na vertical fica centralizado
+                horizontal centralizado e expandido nas laterais
+                -->
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImage="fundo.jpg"
+             x:Class="AppCadernoVirtual.Segundo.MobileSegundo"
+             Title="Mobile">
+    <ContentPage.Content>
+        <StackLayout Padding="60">
+            <Label Text="MATÉRIAS" TextColor="#AA0000" FontSize="Title"
+                HorizontalOptions="CenterAndExpand" FontAttributes="Bold" />
+
+            <Label Text="Criação de apps mobile" FontAttributes="Italic"
+                TextColor="Black"
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
